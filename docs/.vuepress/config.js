@@ -3,7 +3,7 @@ module.exports = {
     title: 'Angular学习',
     description: 'Angular学习笔记',
     head: [
-        ['link', { rel: 'icon', href: `/logo.png` }],
+        ['link', { rel: 'icon', href: `/favicon.ico` }],
     ],
     markdown: {
         //显示行号
