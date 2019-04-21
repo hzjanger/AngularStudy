@@ -37,6 +37,41 @@ module.exports = {
                     '组件与模板/显示数据'
                 ]
 
+            },
+            {
+                title: 'Rxjs',
+                collapsable: false,
+                children: [
+                    ['Rxjs学习/', 'introduction'],
+                    'Rxjs学习/入门基础',
+                    'Rxjs学习/创建数据流'
+                ]
+            },
+            {
+                title: '模块',
+                collapsable: false,
+                children: [
+                    ['模块/', 'introduction'],
+                    '模块/惰性加载特性模块'
+                ]
+            },
+            {
+                title: '第三方插件',
+                collapsable: false,
+                children: [
+                    ['第三方插件/', 'introduction'],
+                    '第三方插件/bootstrap',
+                    '第三方插件/腾讯防水墙插件的使用',
+                    '第三方插件/angular7使用d3'
+                ]
+            },
+            {
+                title: '问题',
+                collapsable: false,
+                children: [
+                    ['问题/', 'introduction'],
+                    '问题/项目不更新问题'
+                ]
             }
         ]
     }
