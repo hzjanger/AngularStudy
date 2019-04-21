@@ -4,12 +4,12 @@
 
 ### 在安装nodejs之前先安装nvm
 1. `wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`,下载并且安装nvm
-2. `sources .barsh`，更新环境配置文件
+2. `source ~/.bashrc`，更新环境配置文件
 
 [nvm安装来源：https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 
 ### 通过nvm安装nodejs特定的版本
-
+	
 使用nvm安装最新的nodejs，`nvm install node`
 
 查看npm的版本`npm -v`（安装nodejs自带有npm）和node的版本`node -v`
@@ -17,6 +17,8 @@
 ## 全局安装angular-cli
 
 使用nodejs全局安装angular-cli：`npm install -g @angular/cli`
+
+查看angular-cli版本：`ng version`
 
 ## 配置镜像
 
