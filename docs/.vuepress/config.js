@@ -48,6 +48,13 @@ module.exports = {
                 ]
             },
             {
+                title: '表单',
+                collapsable: false,
+                children: [
+                    '表单/文件上传'
+                ]
+            },
+            {
                 title: '模块',
                 collapsable: false,
                 children: [
