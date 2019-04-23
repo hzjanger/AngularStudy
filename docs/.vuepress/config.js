@@ -51,7 +51,8 @@ module.exports = {
                 title: '表单',
                 collapsable: false,
                 children: [
-                    '表单/文件上传'
+                    '表单/文件上传',
+                    '表单/文件下载'
                 ]
             },
             {
