@@ -52,7 +52,16 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '表单/文件上传',
-                    '表单/文件下载'
+                    '表单/文件下载',
+                    '表单/响应式表单'
+                ]
+            },
+            {
+                title: 'HttpClient',
+                collapsable: false,
+                children: [
+                    ['HttpClient/', '准备'],
+                    'HttpClient/发送post请求'
                 ]
             },
             {
