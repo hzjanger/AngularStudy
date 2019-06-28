@@ -35,7 +35,8 @@ module.exports = {
                 children: [
                     ['组件与模板/', 'introduction'],
                     '组件与模板/显示数据',
-                    '组件与模板/pipe'
+                    '组件与模板/pipe',
+                    '组件与模板/directive'
                 ]
 
             },
