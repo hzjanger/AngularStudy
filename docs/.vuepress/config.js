@@ -75,6 +75,14 @@ module.exports = {
                 ]
             },
             {
+                title: 'Material',
+                collapsable: false,
+                children: [
+                    ['material/', '安装'],
+                    'material/materialTab'
+                ]
+            },
+            {
                 title: '第三方插件',
                 collapsable: false,
                 children: [
