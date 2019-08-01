@@ -47,18 +47,19 @@ module.exports = {
             },
             {
                 title: '组件与模板',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['组件与模板/', 'introduction'],
                     '组件与模板/显示数据',
                     '组件与模板/pipe',
-                    '组件与模板/directive'
+                    '组件与模板/directive',
+                    '组件与模板/组件内容映射'
                 ]
 
             },
             {
                 title: 'Rxjs',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['Rxjs学习/', 'introduction'],
                     'Rxjs学习/入门基础',
@@ -67,16 +68,17 @@ module.exports = {
             },
             {
                 title: '表单',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '表单/文件上传',
                     '表单/文件下载',
-                    '表单/响应式表单'
+                    '表单/响应式表单',
+                    '表单/表单运用'
                 ]
             },
             {
                 title: 'HttpClient',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['HttpClient/', '准备'],
                     'HttpClient/发送post请求'
@@ -84,7 +86,7 @@ module.exports = {
             },
             {
                 title: '模块',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['模块/', 'introduction'],
                     '模块/惰性加载特性模块'
@@ -92,22 +94,30 @@ module.exports = {
             },
             {
                 title: '路由与导航',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     '路由与导航/'
                 ]
             },
             {
+                title: '开发工作流',
+                collapsable: true,
+                children: [
+                    '开发工作流/发布'
+                ]
+            },
+            {
                 title: 'Material',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['material/', '安装'],
-                    'material/materialTab'
+                    'material/materialTab',
+                    'material/sidenav'
                 ]
             },
             {
                 title: '第三方插件',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['第三方插件/', 'introduction'],
                     '第三方插件/bootstrap',
@@ -117,10 +127,17 @@ module.exports = {
             },
             {
                 title: '问题',
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ['问题/', 'introduction'],
                     '问题/项目不更新问题'
+                ]
+            },
+            {
+                title: 'ngx-admin阅读笔记',
+                collapsable: true,
+                children: [
+                    'ngxAdminRead/'
                 ]
             }
         ]
